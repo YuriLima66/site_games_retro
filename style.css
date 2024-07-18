@@ -54,7 +54,8 @@ h3 {
   font-size: 3rem;
 }
 
-p, li {
+p,
+li {
   font-size: 2rem;
 }
 
@@ -131,25 +132,25 @@ p, li {
 }
 
 footer {
+  text-align: center;
   position: absolute;
   bottom: -230vh;
   background-color: black;
   padding: 1rem;
 }
 
-footer > h3 > a {
-  text-decoration: none;
+footer > a {
   font-size: 3rem;
+  text-decoration: none;
 }
-
-footer > h3 > a:hover {
+footer > a:hover {
   color: rgb(241, 254, 0);
 }
 
 @media (max-width: 1290px) {
   .card {
-    height: auto; 
-    width: 80%; 
+    height: auto;
+    width: 80%;
     margin-top: 5rem;
   }
 
@@ -159,21 +160,21 @@ footer > h3 > a:hover {
   }
 
   h1 {
-    top: 2rem;
-    font-size: 4rem; 
-    padding: 0.5rem; 
+    display: none;
   }
 
-  h3, p, li {
-    font-size: 1.6rem; 
+  h3,
+  p,
+  li {
+    font-size: 1.6rem;
   }
 
   .menu_superior {
     flex-direction: row;
     font-size: 3rem;
     width: 100vw;
-    height: auto; 
-    align-items: center; 
+    height: auto;
+    align-items: center;
     padding: 1rem 0;
   }
 
@@ -183,7 +184,7 @@ footer > h3 > a:hover {
 
   .logo {
     position: absolute;
-    bottom: -469vh;
+    bottom: -470vh;
   }
 
   footer {
@@ -193,5 +194,19 @@ footer > h3 > a:hover {
     padding: 1rem;
     width: 100vw;
     text-align: center;
+    height: 5rem;
+  }
+  footer > h3 {
+    display: none;
+  }
+  footer > a {
+    font-size: 3rem;
+    text-decoration: none;
+  }
+  footer > a:before {
+    content: "By ";
+  }
+  footer > a:hover {
+    color: rgb(241, 254, 0);
   }
 }
