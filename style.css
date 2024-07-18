@@ -151,8 +151,10 @@ footer > a:hover {
 @media (max-width: 1024px) {
   .card {
     height: auto;
-    width: 80%;
+    width: 60%;
     margin-top: 5rem;
+    margin-left: 50%;
+    transform: translate(-67.5%);
   }
 
   .pai-1 {
@@ -185,9 +187,10 @@ footer > a:hover {
 
   .card .texto {
     
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     text-align: center;
+    transform: translate(-20%);
     
   }
   .personagem{
@@ -197,7 +200,7 @@ footer > a:hover {
   .texto>h3{
     position: absolute;
     right: 40%;
-    bottom: 80%;
+    bottom: 85%;
     background-color: black;
     padding: 1%;
     border-radius: 1rem;
