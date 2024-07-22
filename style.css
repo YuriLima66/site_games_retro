@@ -155,6 +155,7 @@ footer > a:hover {
     margin-top: 5rem;
     margin-left: 50%;
     transform: translate(-67.5%);
+    min-width: 250px;
   }
 
   .pai-1 {
@@ -190,7 +191,7 @@ footer > a:hover {
     flex-direction: row-reverse;
     align-items: center;
     text-align: center;
-    transform: translate(-20%);
+    transform: translate(0%);
     
   }
   .personagem{
@@ -199,11 +200,13 @@ footer > a:hover {
 
   .texto>h3{
     position: absolute;
-    right: 40%;
-    bottom: 85%;
-    background-color: black;
+    right: 0%;
+    bottom: 0%;
+    background-color: rgba(0, 0, 0, 0.768);
     padding: 1%;
     border-radius: 1rem;
+    border: 2px solid white;
+
   }
   .texto>ul>li{
    list-style-type:none;
